@@ -1,0 +1,76 @@
+html{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.logo{
+  width: 150px;
+  
+}
+h1{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  
+}
+.h1-span{
+  color: rgb(2, 2, 111);
+
+}
+div{
+  width: 45%;
+  display: inline-block;
+}
+.images{
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+   
+}
+.first-div{
+  float: left;
+  
+
+}
+.second-div{
+  float: right;
+  
+}
+.main-div{
+  margin-top: 20px;
+  width: 100%;
+}
+.words{
+  color: rgb(4, 107, 141);
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  text-align: right;
+  margin-right: 40px;
+}
+footer{
+  margin-top: 135px;
+}
+@media (max-width:420px){
+  .images{
+    width: 300px;
+  }
+  .first-div{
+    display: block;
+    width: 100%;
+  }
+  .second-div{
+    display: block;
+    width: 100%;
+  }
+  p{
+    clear: left;
+  }
+  html{
+    margin-left: 10px;
+  }
+}
